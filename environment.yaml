@@ -1,0 +1,13 @@
+name: default
+description: "aachat messenger agent。provider SDK はローカルランナー側に閉じ込め、agent runtime には必要最小限だけ置く。secret 値は書かない。"
+config:
+  packages: {}
+  networking:
+    type: unrestricted
+  env:
+    - name: MESSENGER_PROJECT
+      purpose: Default aachat project name for messenger workflow
+    - name: MESSENGER_RUNNER_CLI
+      purpose: Optional override for local runner command path, default reply-drafter
+    - name: MESSENGER_RUNNER_DATA_DIR
+      purpose: Optional local persistent data directory for runner state, never a session workspace path

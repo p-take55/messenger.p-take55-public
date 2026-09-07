@@ -1,0 +1,5 @@
+name: Messenger
+description: "業務メッセージの返信要否を判定し、返信案と人間承認をローカルランナーにつなぐAgent。"
+tags:
+  - productivity
+  - messaging

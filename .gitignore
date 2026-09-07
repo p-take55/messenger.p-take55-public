@@ -1,0 +1,19 @@
+.runtime/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+__pycache__/
+.DS_Store
+build/
+*.egg-info/
+
+# Local credentials and private state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+runtime/
+oauth/
+memory/
+.venv/
